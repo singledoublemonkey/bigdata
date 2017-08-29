@@ -47,7 +47,7 @@ reduceByKey是对元素为KV对的RDD中Key相同的元素的Value进行指定�
 
 **Example：**
 
-```
+```scala
 // reduce
 val rdd = sc.parallelize(1 to 5)
 rdd.collect()   //Array[Int] = Array(1, 2, 3, 4, 5)
